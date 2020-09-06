@@ -12548,11 +12548,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\gitlocal\\WebAPIProject\\WebAPIProject\\WebAPIProject.csproj",
+      "projectUniqueName": "C:\\gitlocal\\Asp-Net-Project\\WebAPIProject\\WebAPIProject.csproj",
       "projectName": "WebAPIProject",
-      "projectPath": "C:\\gitlocal\\WebAPIProject\\WebAPIProject\\WebAPIProject.csproj",
+      "projectPath": "C:\\gitlocal\\Asp-Net-Project\\WebAPIProject\\WebAPIProject.csproj",
       "packagesPath": "C:\\Users\\Rappi TI\\.nuget\\packages\\",
-      "outputPath": "C:\\gitlocal\\WebAPIProject\\WebAPIProject\\obj\\",
+      "outputPath": "C:\\gitlocal\\Asp-Net-Project\\WebAPIProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
