@@ -98,3 +98,7 @@ C:\gitlocal\WebAPI_Project\WebAPIProject\obj\Debug\netcoreapp2.1\WebAPIProject.V
 C:\gitlocal\WebAPI_Project\WebAPIProject\obj\Debug\netcoreapp2.1\WebAPIProject.dll
 C:\gitlocal\WebAPI_Project\WebAPIProject\obj\Debug\netcoreapp2.1\WebAPIProject.pdb
 C:\gitlocal\WebAPI_Project\WebAPIProject\obj\Debug\netcoreapp2.1\WebAPIProject.csproj.CopyComplete
+C:\gitlocal\WebAPI_Project\WebAPIProject\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Index.g.cshtml.cs
+C:\gitlocal\WebAPI_Project\WebAPIProject\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Create.g.cshtml.cs
+C:\gitlocal\WebAPI_Project\WebAPIProject\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Edit.g.cshtml.cs
+C:\gitlocal\WebAPI_Project\WebAPIProject\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Delete.g.cshtml.cs
