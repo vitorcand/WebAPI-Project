@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\gitlocal\\Asp-Net-Project\\WebAPIProject\\WebAPIProject.csproj": {}
+    "C:\\gitlocal\\WebAPI_Project\\WebAPIProject\\WebAPIProject.csproj": {}
   },
   "projects": {
-    "C:\\gitlocal\\Asp-Net-Project\\WebAPIProject\\WebAPIProject.csproj": {
+    "C:\\gitlocal\\WebAPI_Project\\WebAPIProject\\WebAPIProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\gitlocal\\Asp-Net-Project\\WebAPIProject\\WebAPIProject.csproj",
+        "projectUniqueName": "C:\\gitlocal\\WebAPI_Project\\WebAPIProject\\WebAPIProject.csproj",
         "projectName": "WebAPIProject",
-        "projectPath": "C:\\gitlocal\\Asp-Net-Project\\WebAPIProject\\WebAPIProject.csproj",
+        "projectPath": "C:\\gitlocal\\WebAPI_Project\\WebAPIProject\\WebAPIProject.csproj",
         "packagesPath": "C:\\Users\\Rappi TI\\.nuget\\packages\\",
-        "outputPath": "C:\\gitlocal\\Asp-Net-Project\\WebAPIProject\\obj\\",
+        "outputPath": "C:\\gitlocal\\WebAPI_Project\\WebAPIProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

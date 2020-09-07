@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Rendering;
 using WebAPIProject.Models.Contexto;
 using WebAPIProject.Models.Entidades;
 
@@ -18,13 +19,15 @@ namespace WebAPIProject.Controllers
         }
         public IActionResult Index()
         {
-            return View();
+            var lista = _contexto.Usuario.ToList();
+            CarregaTipoUser();
+            return View(lista);
         }
         [HttpGet]
         public IActionResult Create()
         {
             var usuario = new Usuario();
-
+            CarregaTipoUser();
             return View(usuario);
         }
         [HttpPost]
@@ -37,17 +40,15 @@ namespace WebAPIProject.Controllers
 
                 return RedirectToAction("Index");
             }
+            CarregaTipoUser();
             return View(usuario);
         }
 
-        [HttpPost]
+        [HttpGet]
         public IActionResult Edit(int Id)
         {
             var usuario = _contexto.Usuario.Find(Id);
-            if (usuario != null)
-            {
-
-            }
+            CarregaTipoUser();
             return View(usuario);
         }
 
@@ -63,13 +64,15 @@ namespace WebAPIProject.Controllers
             }
             else
             {
+                CarregaTipoUser();
                 return View(usuario);
             }
         }
-
+        [HttpGet]
         public IActionResult Delete(int Id)
         {
             var usuario = _contexto.Usuario.Find(Id);
+            CarregaTipoUser();
             return View(usuario);
         }
 
@@ -86,10 +89,25 @@ namespace WebAPIProject.Controllers
             }
             return View(usuario);
         }
+        [HttpGet]
         public IActionResult Details(int Id)
         {
             var usuario = _contexto.Usuario.Find(Id);
+            CarregaTipoUser();
             return View(usuario);
+        }
+
+        public void CarregaTipoUser()
+        {
+            var ItensTipoUser = new List<SelectListItem>
+            {
+                new SelectListItem{ Value = "1", Text = "Administrador"},
+                new SelectListItem{ Value = "2", Text = "Técnico"},
+                new SelectListItem{ Value = "3", Text = "Usuário Normal"}
+
+
+            };
+            ViewBag.TipoUser = ItensTipoUser;
         }
 
     }
