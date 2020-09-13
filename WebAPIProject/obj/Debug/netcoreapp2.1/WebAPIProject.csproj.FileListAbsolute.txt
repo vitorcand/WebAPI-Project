@@ -102,3 +102,4 @@ C:\gitlocal\WebAPI_Project\WebAPIProject\obj\Debug\netcoreapp2.1\Razor\Views\Usu
 C:\gitlocal\WebAPI_Project\WebAPIProject\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Create.g.cshtml.cs
 C:\gitlocal\WebAPI_Project\WebAPIProject\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Edit.g.cshtml.cs
 C:\gitlocal\WebAPI_Project\WebAPIProject\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Delete.g.cshtml.cs
+C:\gitlocal\WebAPI_Project\WebAPIProject\obj\Debug\netcoreapp2.1\Razor\Views\Usuarios\Details.g.cshtml.cs

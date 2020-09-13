@@ -9,11 +9,14 @@ namespace WebAPIProject.Models.Contexto
 {
     public class Contexto  : DbContext
     {
-        public Contexto(DbContextOptions<Contexto> option) : base(option)
-            {
-            Database.EnsureCreated();
-    }
         public DbSet<Usuario> Usuario { get; set; }
+
+        public Contexto(DbContextOptions<Contexto> option) : base(option)
+        {
+            Database.OpenConnection();
+            Database.EnsureCreated();
+            Database.CloseConnection();
+        }
 
     }
 }
